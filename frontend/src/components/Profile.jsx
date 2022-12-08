@@ -1,11 +1,9 @@
 import React from 'react'
-import '@passageidentity/passage-elements/passage-auth'
 
 function Profile() {
   return (
-    <div className='container'>
-        <h1>Passage Demo</h1>
-        <passage-auth app-id={process.env.REACT_APP_PASSAGE_APP_ID}></passage-auth>
+    <div>
+        <p>You are logged in!</p>
     </div>
   )
 }
