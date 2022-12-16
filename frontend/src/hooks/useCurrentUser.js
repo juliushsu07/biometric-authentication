@@ -31,8 +31,6 @@ export function useCurrentUser() {
             cancelRequest = true;
         }
     }, []);
-    
-    console.log(result);
 
     return result;
     
